@@ -9,6 +9,11 @@ This is a machine learning web application built with Streamlit that predicts wh
 - Pre-processing utilizing scikit-learn's `StandardScaler` and `LabelEncoder`.
 - Configurable inputs including Temperature, Rainfall, Sunshine, Wind Direction/Speed, Humidity, and Pressure.
 
+## 📸 Screenshots
+
+*(Replace this placeholder with a screenshot of your application)*
+![App Screenshot](screenshot.png)
+
 ## 📦 Project Structure
 
 - `app.py`: The main Streamlit web application script defining the UI.
@@ -23,8 +28,8 @@ This is a machine learning web application built with Streamlit that predicts wh
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Ammar-Salah/Australia-rain-predictor.git
+   cd Australia-rain-predictor
    ```
 
 2. **Create a virtual environment (Recommended):**
