@@ -16,11 +16,7 @@ RainTomorrow is the target variable to predict. It means -- did it rain the next
 
 ## 📸 Screenshots
 
-<img width="1366" height="614" alt="image" src="https://github.com/user-attachments/assets/714d1368-2d23-4ea5-bafc-32c125e67193" />
-<img width="1357" height="621" alt="image" src="https://github.com/user-attachments/assets/5f4eca3b-dd56-4452-9adf-3df7baa70e9d" />
-<img width="1359" height="78" alt="image" src="https://github.com/user-attachments/assets/38f2bb73-4944-4d73-9039-95ab7bb004ba" />
-
-
+<img width="1366" height="1456" alt="image" src="https://github.com/user-attachments/assets/cdfa97c2-b074-4b32-ae3d-50a14447eb10" />
 
 ## 📦 Project Structure
 
