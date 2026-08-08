@@ -2,6 +2,11 @@
 
 This is a machine learning web application built with Streamlit that predicts whether it will rain tomorrow in various locations across Australia, based on today's weather parameters. It uses a trained Artificial Neural Network (ANN) model built with TensorFlow/Keras.
 
+# 🗂️ About The Dataset
+
+This dataset contains about 10 years of daily weather observations from numerous Australian weather stations.
+RainTomorrow is the target variable to predict. It means -- did it rain the next day, Yes or No?
+
 ## 🚀 Features
 
 - Interactive web interface using **Streamlit**.
@@ -17,16 +22,20 @@ This is a machine learning web application built with Streamlit that predicts wh
 
 
 
-
 ## 📦 Project Structure
 
-- `app.py`: The main Streamlit web application script defining the UI.
-- `main.py`: Contains the logic for parsing user inputs, applying preprocessing (scaling and encoding), and querying the ML model.
-- `weather_ann_model.keras` & `weather_ann_model.h5`: The saved pre-trained TensorFlow/Keras neural network models.
-- `scaler.pkl`: Pickled `StandardScaler` used to scale numerical features during inference.
-- `label_encoder.pkl`: Pickled `LabelEncoder` for categorical variables.
-- `weatherAUS.csv`: The dataset containing historical daily weather observations from Australia.
-- `requirements.txt`: List of Python dependencies required to run the project.
+| File | Description |
+|------|-------------|
+| `app.py` | Streamlit web application (UI) |
+| `main.py` | Input preprocessing, scaling, encoding, and model inference |
+| `weather_ann_model.keras` | Saved pre-trained neural network used at inference time |
+| `scaler.pkl` | Pickled `StandardScaler` for numerical features |
+| `label_encoder.pkl` | Pickled `LabelEncoder` for categorical variables |
+| `weatherAUS.csv` | Historical daily weather observations from Australia |
+| `notebook.ipynb` | Data preprocessing, model training, and artifact export |
+| `requirements.txt` | Python dependencies |
+
+
 
 ## 🛠️ Installation & Setup
 
@@ -73,3 +82,7 @@ The application will open in your default web browser at `http://localhost:8501`
 
 - **`ModuleNotFoundError: No module named 'tensorflow'`:** This means TensorFlow didn't install correctly. Ensure your virtual environment is activated and try running `pip install tensorflow` again.
 - **Model Loading Issues:** The app requires `weather_ann_model.keras`, `scaler.pkl`, and `label_encoder.pkl` to be present in the root directory. Ensure they are downloaded or exist in the repo.
+
+## 📚 Source & Acknowledgements
+
+- **Dataset link:** [Rain in Australia (weatherAUS) on Kaggle](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package)
