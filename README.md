@@ -11,8 +11,12 @@ This is a machine learning web application built with Streamlit that predicts wh
 
 ## 📸 Screenshots
 
-*(Replace this placeholder with a screenshot of your application)*
-![App Screenshot](screenshot.png)
+<img width="1366" height="614" alt="image" src="https://github.com/user-attachments/assets/714d1368-2d23-4ea5-bafc-32c125e67193" />
+<img width="1357" height="621" alt="image" src="https://github.com/user-attachments/assets/5f4eca3b-dd56-4452-9adf-3df7baa70e9d" />
+<img width="1359" height="78" alt="image" src="https://github.com/user-attachments/assets/38f2bb73-4944-4d73-9039-95ab7bb004ba" />
+
+
+
 
 ## 📦 Project Structure
 
